@@ -58,13 +58,13 @@ $ webpack --progress --colors --watch
 We'll now need to run the database migrations:
 
 ```
-$ sequelize db:migrate
+vagrant@vagrant:/vagrant$ sequelize db:migrate
 ```
 
 I've created a little [Vorpal JS](http://vorpal.js.org/) utility to make things a little easier for creating and testing data, so we'll need to fire it up now:
 
 ```
-$ node connect
+vagrant@vagrant:/vagrant$ node connect
 ```
 
 We can do a few things in here (which you can see by issuing the `help` command), but the ones we're interested in are `create account` and `create user`. Give it those commands (in that order) and enter whatever information you like when prompted--it's not picky.
