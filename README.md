@@ -61,7 +61,7 @@ We'll now need to run the database migrations:
 $ sequelize db:migrate
 ```
 
-I've created a little (Vorpal JS)[http://vorpal.js.org/] utility to make things a little easier for creating and testing data, so we'll need to fire it up now:
+I've created a little [Vorpal JS](http://vorpal.js.org/) utility to make things a little easier for creating and testing data, so we'll need to fire it up now:
 
 ```
 $ node connect
