@@ -1,0 +1,54 @@
+{
+  "name": "feathers-auth-bug",
+  "description": "A project demonstrating the bug I&#39;m having with feathers-authenticate",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src/",
+  "keywords": [
+    "feathers"
+  ],
+  "license": "MIT",
+  "repository": {},
+  "author": {},
+  "contributors": [],
+  "bugs": {},
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "jshint": "jshint src/. test/. --config",
+    "start": "babel-node src/",
+    "mocha": "mocha test/ --compilers js:babel-core/register --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "feathers": "^2.0.2",
+    "feathers-authentication": "^0.7.10",
+    "feathers-configuration": "^0.2.3",
+    "feathers-errors": "^2.4.0",
+    "feathers-hooks": "^1.5.7",
+    "feathers-rest": "^1.5.0",
+    "feathers-sequelize": "^1.3.2",
+    "feathers-socketio": "^1.4.1",
+    "lodash": "^4.15.0",
+    "passport": "^0.3.2",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.3",
+    "serve-favicon": "^2.3.0",
+    "vorpal": "^1.11.4",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "jshint": "^2.9.3",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
+  }
+}

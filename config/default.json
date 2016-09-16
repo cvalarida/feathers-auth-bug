@@ -1,0 +1,15 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:postgres@localhost:5432/feathersAuthBug",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "tlENZGmw5Rng5SZhzYXgWYIU2e1TawcQueVn/Mpg2OyMkEzb4Nwajqi2/HGFy+ZGGrknuLpKXyx/A+7xFKxCgw=="
+    },
+    "local": {
+      "userEndpoint": "/api/users"
+    }
+  }
+}

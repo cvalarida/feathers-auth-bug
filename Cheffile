@@ -1,0 +1,8 @@
+# encoding: utf-8
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apt"
+cookbook "vim", {}
+cookbook "nodejs", {:github=>"redguide/nodejs"}
+cookbook "postgresql", {}
