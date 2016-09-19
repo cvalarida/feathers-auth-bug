@@ -4,6 +4,9 @@
 
 This project uses [Feathers](http://feathersjs.com), an open source web framework for building modern real-time applications. In particular, this demonstrates the issue I'm experiencing when using the [`feathers-authentication`](https://github.com/feathersjs/feathers-authentication) package.
 
+## Solution
+There's a solution branch now that I figured out what the problem is. Spoilers: It's the config.
+
 
 ## Setup
 
