@@ -8,6 +8,7 @@
     "token": {
       "secret": "FEATHERS_AUTH_SECRET"
     },
+    "userEndpoint": "/api/users",
     "local": {}
   }
 }

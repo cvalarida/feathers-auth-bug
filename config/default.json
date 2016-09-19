@@ -8,8 +8,8 @@
     "token": {
       "secret": "tlENZGmw5Rng5SZhzYXgWYIU2e1TawcQueVn/Mpg2OyMkEzb4Nwajqi2/HGFy+ZGGrknuLpKXyx/A+7xFKxCgw=="
     },
+    "userEndpoint": "/api/users",
     "local": {
-      "userEndpoint": "/api/users"
     }
   }
 }
