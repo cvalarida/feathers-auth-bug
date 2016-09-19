@@ -1,11 +1,8 @@
 # feathers-auth-bug
 
-> A project demonstrating the bug I&#39;m having with `feathers-authentication`.
-
-
 ## About
 
-This project uses [Feathers](http://feathersjs.com), an open source web framework for building modern real-time applications. In particular, this demonstrates the issue I'm experiencing when using the `feathers-authentication` package.
+This project uses [Feathers](http://feathersjs.com), an open source web framework for building modern real-time applications. In particular, this demonstrates the issue I'm experiencing when using the [`feathers-authentication`](https://github.com/feathersjs/feathers-authentication) package.
 
 
 ## Setup
